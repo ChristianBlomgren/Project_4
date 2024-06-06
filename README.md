@@ -8,7 +8,8 @@
 </ul>
 
 <h3>Overview</h3>
-<P>(Project Summary - to be written)  </p>
+<P>The goal of this project was to utilize machine learning fundamentals to identify the most accurate ML model able 
+to predict the expected sale price for a home in the Phoenix metro region. The process would use recent home sale prices from the following cities: Phoenix, Scottsdale, Tempe, Glendale and Peoria.</p>
 
 <h3>Data Source</h3>
 
@@ -16,7 +17,7 @@
 
 <p>Becuase of technical challenges with scraping manually (via Beautiful Soup) and after extensive research, the team used a third-party service - Apify&trade; - to scrape the data. Apify provides a user-agent to scrape the site based on a url construct provided by the user.</p>
 
-<b>Data url:</b><a href="https://www.zillow.com/phoenix-az/sold/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22west%22%3A-112.63061986914062%2C%22east%22%3A-111.55121313085937%2C%22south%22%3A33.28514328583089%2C%22north%22%3A33.925649143779%7D%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A40326%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A47958%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A54346%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A18298%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A40298%2C%22regionType%22%3A6%7D%5D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22rs%22%3A%7B%22value%22%3Atrue%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D">Zillow Results Page</a>
+<b>Data url: </b><a href="https://www.zillow.com/phoenix-az/sold/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22west%22%3A-112.63061986914062%2C%22east%22%3A-111.55121313085937%2C%22south%22%3A33.28514328583089%2C%22north%22%3A33.925649143779%7D%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A40326%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A47958%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A54346%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A18298%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A40298%2C%22regionType%22%3A6%7D%5D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22rs%22%3A%7B%22value%22%3Atrue%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D">Zillow Results Page</a>
 
 <h3>Libraries and Dependencies</h3>
 <h5>Data Cleaning</h5>
