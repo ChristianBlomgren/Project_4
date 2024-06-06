@@ -19,27 +19,27 @@ to predict the expected sale price for a home in the Phoenix metro region. The p
 
 <b>Data url: </b><a href="https://www.zillow.com/phoenix-az/sold/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22west%22%3A-112.63061986914062%2C%22east%22%3A-111.55121313085937%2C%22south%22%3A33.28514328583089%2C%22north%22%3A33.925649143779%7D%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A40326%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A47958%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A54346%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A18298%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A40298%2C%22regionType%22%3A6%7D%5D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22rs%22%3A%7B%22value%22%3Atrue%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D">Zillow Results Page</a>
 
+
+<h3>Results</h3>
+<p>(Summary of results with images ..)
+
+<h3>Conclusion</h3>
+<p>(Model recommendation and reason ..)
+
+
 <h3>Libraries and Dependencies</h3>
-<h5>Data Cleaning</h5>
+<h5>Libraries</h5>
 <ul>
-    <li>Libraries: Pandas, SQL Alchemy</li>
-    <li>Dependencies: Sqlite, Jupyter</li>
+    <li>Data Cleaning: Pandas, SQL Alchemy</li>
+    <li>Model Training: SKLearn (model_selection, prepocessing, metrics), Keras (models, layers)</li>
+    <li>Visualization: ....</li>
 </ul>
-<h5>Model Training</h5>
+<h5>Dependencies</h5>
 <ul>
-    <li>Libraries: SKLearn (model_selection, prepocessing, metrics), Keras (models, layers)</li>
-    <li>Dependencies: Sqlite, Jupyter</li>
+    <li>SQLLite</li>
+    <li>Jupyter</li>
+    <li>Tableau</li>
 </ul>
-<h5>Visualization</h5>
-<ul>
-    <li>Libraries: Pandas, SQL Alchemy</li>
-    <li>Dependencies: Sqlite, Jupyter</li>
-</ul>
-
-
-<h3>Results and Conclusions</h3>
-<p>(Summary details - will create from visualizations/presentation)</p>
-
 
 <h3>References</h3>
 <ul>
