@@ -21,10 +21,24 @@ to predict the expected sale price for a home in the Phoenix metro region. The p
 
 
 <h3>Results</h3>
-<p>(Summary of results with images ..)
+<p>Two models were evaluated in an effort to effectively predict housing prices. The evaluation process used the recently sold data
+to train and test the model, and then was run against homes listed for sale to predict their listed price. This was compared with the actual listed price to determine the effectiveness of the model.</p>
+
+<p>Of the two models (Keras Sequential and Linear Regression) the Sequential model was most effective, although not at a level at which the team could recommend putting the model into use. The measurement results were:</p>
+<ul>
+    <li>Mean Absolute Error: $231,140 agaist a mean housing price of $690,000</li>
+    <li>An r-squared value of 0.64 that, while positive, is not as close to 1 as would be ideal.</li>
+</ul>
 
 <h3>Conclusion</h3>
-<p>(Model recommendation and reason ..)
+<p>Given the results of the models employed, a better solution should be sought before finalizing the model for production. Better modeling could likely be achieved through some combination of the following steps:</p>
+<ul>
+    <li>Identify additional attributes that could impact price variance and determine data sources.</li>
+    <li>Execute other model types (Regression Tree, KNN) to determine if a better model fit can be found.<li>
+    <li>Expand our dataset by including additional locations in the metro area to increase the sample size.<li>
+    <li>Research similar projects to understand whether others investigating a similar outcome of new ideas that 
+    might aid in the process.<li>
+</ul>
 
 
 <h3>Libraries and Dependencies</h3>
