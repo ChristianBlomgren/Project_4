@@ -2,9 +2,7 @@
 
 <h3>Team:</h3>
 <ul>
-    <li>Christian Blomgren</li>
-    <li>Drew Kirke</li>
-    <li>Tim Spendley
+    <li>Christian Blomgren, Drew Kirke, Tim Spendley</li>
 </ul>
 
 <h3>Overview</h3>
@@ -34,21 +32,22 @@ to train and test the model, and then was run against homes listed for sale to p
 <p>Given the results of the models employed, a better solution should be sought before finalizing the model for production. Better modeling could likely be achieved through some combination of the following steps:</p>
 <ul>
     <li>Identify additional attributes that could impact price variance and determine data sources.</li>
-    <li>Execute other model types (Regression Tree, KNN) to determine if a better model fit can be found.<li>
-    <li>Expand our dataset by including additional locations in the metro area to increase the sample size.<li>
+    <li>Execute other model types (Regression Tree, KNN) to determine if a better model fit can be found.</li>
+    <li>Expand our dataset by including additional locations in the metro area to increase the sample size.</li>
     <li>Research similar projects to understand whether others investigating a similar outcome of new ideas that 
-    might aid in the process.<li>
+    might aid in the process.</li>
 </ul>
 
 
-<h3>Libraries and Dependencies</h3>
+<h3>Libraries and Tools</h3>
 <h5>Libraries</h5>
 <ul>
     <li>Data Cleaning: Pandas, SQL Alchemy</li>
     <li>Model Training: SKLearn (model_selection, prepocessing, metrics), Keras (models, layers)</li>
-    <li>Visualization: ....</li>
+    <li>Visualization: Matplotlib</li>
 </ul>
-<h5>Dependencies</h5>
+
+<h5>Tools</h5>
 <ul>
     <li>SQLLite</li>
     <li>Jupyter</li>
